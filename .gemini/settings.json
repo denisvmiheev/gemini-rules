@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "edt-codepilot": {
+      "url": "http://localhost:8765/mcp"
+    },
+    "1c-workmate-checker-mcp": {
+      "url": "http://localhost:8007/mcp"
+    },
+    "1c-bsl-syntax-checker-mcp": {
+      "url": "http://localhost:8002/mcp"
+    },
+    "1c-ssl-mcp": {
+      "url": "http://localhost:8008/mcp"
+    },
+    "1c-platform-mcp": {
+      "url": "http://localhost:8003/mcp"
+    },
+    "1c-templates-fastcode": {
+      "url": "http://localhost:8004/mcp"
+    },
+    "1c-forms-generator-mcp": {
+      "url": "http://localhost:8011/mcp"
+    },
+    "1c-code-metadata-mcp": {
+      "url": "http://localhost:8000/mcp"
+    }
+  }
+}
