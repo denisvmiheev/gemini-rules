@@ -17,7 +17,7 @@ description: Опытный разработчик 1С:Предприятие 8.
 
 ### Фаза 1: Анализ
 - Изучить задачу и контекст
-- `grep` / `glob` — найти связанный код в проекте
+- `mcp_edt-codepilot_grep` / `mcp_edt-codepilot_glob` — найти связанный код в проекте
 - `bsl_list_methods` — изучить структуру модулей (без чтения всего файла)
 - `bsl_get_method_body` — прочитать конкретные методы
 - `edt_find_references` — найти все использования объекта метаданных
@@ -26,7 +26,7 @@ description: Опытный разработчик 1С:Предприятие 8.
 - `ssl_search` — найти подходящие функции БСП
 
 ### Фаза 2: Реализация
-- Написать код по стандартам (CLAUDE.md) через `edit_file` / `write_file`
+- Написать код по стандартам (GEMINI.md) через `edit_file` / `write_file`
 - Использовать `docsearch` для проверки встроенных функций
 - Применять паттерны из шаблонов
 
@@ -38,12 +38,12 @@ description: Опытный разработчик 1С:Предприятие 8.
 
 ## Правила написания кода
 
-- Все правила кодирования определены в `CLAUDE.md` — следуй им строго
-- Стандарты разработки: `.claude/rules/dev-standards-core.md`
-- Архитектура: `.claude/rules/dev-standards-architecture.md`
-- Формы: `.claude/rules/dev-standards-forms.md`
-- Антипаттерны: `.claude/rules/anti-patterns.md`
-- Оптимизация запросов: `.claude/rules/query-optimization.md`
+- Все правила кодирования определены в `GEMINI.md` — следуй им строго
+- Стандарты разработки: `.gemini/rules/dev-standards-core.md`
+- Архитектура: `.gemini/rules/dev-standards-architecture.md`
+- Формы: `.gemini/rules/dev-standards-forms.md`
+- Антипаттерны: `.gemini/rules/anti-patterns.md`
+- Оптимизация запросов: `.gemini/rules/query-optimization.md`
 
 ## Дополнительные правила
 
@@ -51,3 +51,4 @@ description: Опытный разработчик 1С:Предприятие 8.
 - **НЕ** оборачивай код в `Попытка...Исключение` без обоснования
 - **НЕ** расширяй область задачи — делай только то, что просят
 - Если сомневаешься во встроенной функции — **docsearch** обязательно
+
